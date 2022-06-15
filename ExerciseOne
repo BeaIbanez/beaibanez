@@ -1,0 +1,8 @@
+public class ExerciseOne {
+    public static void main(String[] args) {
+           System.out.println(productFormatter(" Ironhack Bootcamp 2022  ","24/5/2014"));
+    }
+    public static String productFormatter(String productName, String date) {
+        return productName.toUpperCase().trim().replace(' ', '_')+" "+date;
+    }
+}

@@ -1,0 +1,15 @@
+public class ExerciseOne {
+    public static void main(String[] args) {
+        productFormatter();
+    }
+
+    private static void productFormatter() {
+        //Byte temp = -15;
+        String date = "10 de octubre de 2015";
+        String productName = "Ironhack";
+        System.out.println(productName.toUpperCase() +"_"+date.toUpperCase() );
+
+    }
+
+
+}
